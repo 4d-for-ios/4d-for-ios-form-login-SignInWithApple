@@ -1,0 +1,13 @@
+{
+  "type": "login",
+  "name": "signinwithapple",
+  "inject": true,
+  "capabilities": {
+        "signInWithOS": true,
+        "settings": {
+        	"application.services": [
+        		"SignInWithAppleCredentialStateService"
+        	]
+        }
+    }  
+}

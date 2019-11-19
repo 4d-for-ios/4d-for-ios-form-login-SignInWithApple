@@ -6,6 +6,7 @@ import PackageDescription
 let package = Package(
     name: "LoginForm",
     platforms: [
+       .macOS(.v10_14),
         .iOS(.v13)
     ],
     products: [

@@ -151,20 +151,3 @@ extension SignInWithAppleCredentialStateService: ApplicationService {
         }
     }
 }
-
-
-/*
-extension Prephirences.Auth {
-    public struct SignInWithApple: Prephirencable { // swiftlint:disable:this nesting
-        public static let parent = Auth.instance
-        public static var userId: String? {
-            get {
-                return instance["userId"] as? String
-            }
-            set {
-                mutableInstance?.set(newValue, forKey: "userId")
-            }
-        }
-    }
-}
-*/

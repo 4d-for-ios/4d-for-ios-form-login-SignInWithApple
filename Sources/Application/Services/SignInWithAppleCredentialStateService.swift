@@ -11,7 +11,6 @@ import QMobileUI
 import QMobileAPI
 import AuthenticationServices
 import Prephirences
-import DeviceKit
 
 /// A service which let us know if user has revoked credentials for this app.
 ///

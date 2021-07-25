@@ -17,4 +17,4 @@
 [swift-shield]: http://img.shields.io/badge/language-swift-orange.svg?style=flat
 [swift-url]: https://developer.apple.com/swift/
 [check-shield]: https://github.com/4d-go-mobile/form-login-SignInWithApple/workflows/check/badge.svg
-[check-url]: https://github.com/4d-go-mobile/login-SignInWithApple/actions?workflow=check
+[check-url]: https://github.com/4d-go-mobile/form-login-SignInWithApple/actions?workflow=check

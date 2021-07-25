@@ -11,7 +11,7 @@ import QMobileUI
 import QMobileAPI
 import AuthenticationServices
 import Prephirences
-#if canImport(DeviceKit) 
+#if canImport(DeviceKit)
 import DeviceKit
 #endif
 

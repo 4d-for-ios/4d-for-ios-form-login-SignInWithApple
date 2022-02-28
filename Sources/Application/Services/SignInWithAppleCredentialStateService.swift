@@ -109,7 +109,7 @@ extension SignInWithAppleCredentialStateService: ApplicationService {
         /// Getting credential state is only possible on a real device
 
         /// Exclusively for testing on simulator
-        if Device.current.isSimulator {
+        if Device.current.isSimulatorCase {
             logger.info("Credentials state cannot be checked on simulator.")
             completionHandler(.success(.authorized))
 //            completionHandler(.success(.revoked)) // Exclusively for testing revokation

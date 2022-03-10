@@ -14,7 +14,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/phimage/Prephirences.git", .revision("HEAD")),
-        .package(url: "https://github.com/phimage/DeviceKit.git", .branch("feature/macos")),
         .package(url: "https://github.com/4d-for-ios/QMobileAPI.git", .revision("HEAD")),
         .package(url: "https://github.com/4d-for-ios/QMobileUI.git", .revision("HEAD"))
     ],

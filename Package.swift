@@ -18,6 +18,6 @@ let package = Package(
         .package(url: "https://github.com/4d-for-ios/QMobileUI.git", .revision("HEAD"))
     ],
     targets: [
-        .target(name: "___PRODUCT___", dependencies: ["QMobileUI", "QMobileAPI", "Prephirences", "DeviceKit"], path: "Sources")
+        .target(name: "___PRODUCT___", dependencies: ["QMobileUI", "QMobileAPI", "Prephirences"], path: "Sources")
     ]
 )
